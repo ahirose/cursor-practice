@@ -1,0 +1,28 @@
+---
+description: sample-app 向けコーディング規約（演習07用サンプル）
+globs: sample-app/**/*
+alwaysApply: false
+---
+
+# sample-app 規約
+
+## JavaScript
+
+- `var` は使わない。`const` を優先し、再代入が必要なときだけ `let`
+- 関数コメントは日本語
+- `console.log` は使わない。デバッグは `console.warn` か `console.error`
+- 外部ライブラリは追加しない（バニラ JS のみ）
+
+## CSS
+
+- クラス名は kebab-case
+- 色の Primary は `#2563eb`
+
+## 例
+
+```javascript
+/** Todo を localStorage から読み込む */
+function loadTodos() {
+  // ...
+}
+```
