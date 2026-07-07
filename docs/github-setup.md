@@ -1,7 +1,8 @@
 # GitHub リポジトリへの公開手順
 
-ローカルにはすでに git リポジトリが初期化・コミット済みです。  
-GitHub CLI (`gh`) が未インストールのため、以下のいずれかの方法で公開してください。
+**公開済み:** https://github.com/ahirose/cursor-practice
+
+以下は、同様の手順を自分で再現する場合のメモです。
 
 ## 方法 A: GitHub Web UI（最も簡単）
 
