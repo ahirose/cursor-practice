@@ -16,6 +16,7 @@ Cursor を初めて使う方向けのセットアップ手順です。
 |------|--------|------|
 | Privacy Mode | ON | コードが学習に使われない |
 | Codebase Indexing | ON | @codebase 検索が使える |
+| Enable Partial Accepts（Cursor Tab） | ON | `Ctrl + →` で単語単位の部分受け入れ（演習01） |
 | Auto-run terminal commands | OFF（最初は） | 意図しないコマンド実行を防ぐ |
 | Default Model | お好みのモデル | 演習10で調整を学ぶ |
 
@@ -27,7 +28,7 @@ Cursor を初めて使う方向けのセットアップ手順です。
 | Inline Edit | `Ctrl + K` |
 | Composer / Agent | `Ctrl + I` |
 | Tab 補完を受け入れ | `Tab` |
-| 補完の一部だけ受け入れ | `Ctrl + →` |
+| 補完の一部だけ受け入れ | `Ctrl + →`（要: Enable Partial Accepts） |
 | Plan Mode に切り替え | Agent パネル内で `Shift + Tab` |
 
 > Mac の場合: `Ctrl` → `Cmd` に読み替えてください。

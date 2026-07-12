@@ -6,6 +6,11 @@
 - Settings → Cursor Tab → Enable を ON
 - ファイル形式が対応言語か確認（`.js`, `.ts`, `.py` 等）
 
+## `Ctrl + →` で部分受け入れが効かない
+
+- **Cursor Settings → Features → Cursor Tab**（または **Tab**）で **Enable Partial Accepts** を ON にする
+- 設定後も動かない場合は Keyboard Shortcuts で `editor.action.inlineSuggest.acceptNextWord` のキーバインド・競合を確認
+
 ## Agent が勝手にファイルを大量変更する
 
 - Plan Mode を先に使う（演習05）
