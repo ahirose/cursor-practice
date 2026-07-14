@@ -15,7 +15,7 @@ Cursor を初めて使う方向けのセットアップ手順です。
 | 設定 | 推奨値 | 理由 |
 |------|--------|------|
 | Privacy Mode | ON | コードが学習に使われない |
-| Codebase Indexing | ON | @codebase 検索が使える |
+| Codebase Indexing | ON | Agent / Ask のコードベース検索に使う |
 | Enable Partial Accepts（Cursor Tab） | ON | `Ctrl + →` で単語単位の部分受け入れ（演習01） |
 | Auto-run terminal commands | OFF（最初は） | 意図しないコマンド実行を防ぐ |
 | Default Model | お好みのモデル | 演習10で調整を学ぶ |
@@ -44,7 +44,7 @@ Cursor が `cursor-practice` フォルダをワークスペースとして開き
 
 ## 5. インデックスの確認
 
-左下または Settings で **Codebase Indexing** が完了するまで数分待ちます。完了すると `@Codebase` でプロジェクト全体を検索できます。
+左下または Settings で **Codebase Indexing** が完了するまで数分待ちます。完了すると Agent / Ask がプロジェクト全体を検索できます（`@Codebase` を付ける必要はありません）。
 
 ## 6. 演習を始める
 

@@ -39,12 +39,10 @@ MCP が無い場合は手動でブラウザ確認し、Step 3 へ。
 
 ### Step 3: GitHub MCP の概念演習
 
-GitHub MCP が未設定でも、次のプロンプトで**設定手順**を Agent に調べさせる:
+GitHub MCP が未設定でも、次のプロンプトで**設定手順**を Agent に調べさせる（`@Web` は不要。Agent が Web 検索する）:
 
 ```
-@Web
-
-Cursor に GitHub MCP を設定する手順を 2026 年版で教えて。
+Cursor に GitHub MCP を設定する手順を、公式ドキュメントなど最新情報を Web で調べて教えて。
 Personal Access Token に必要なスコープも含めて。
 ```
 
