@@ -17,10 +17,17 @@
 - プロンプトに「変更は `@filename` のみ」と明記
 - Auto-run を OFF にして、各ステップを確認
 
-## @Codebase が機能しない
+## コードベース検索がうまくいかない
 
-- Codebase Indexing が完了しているか確認
+- Codebase Indexing が完了しているか確認（Settings → Indexing）
 - `.cursorignore` / `.gitignore` で除外されていないか確認
+- `@Codebase` は不要。自然言語で「コードベースを検索して」と書く
+- 分かっているファイルなら `@filename` で直接渡す
+
+## `@Web` / `@Docs` が見つからない
+
+- `@Web` は Cursor 2.0 で削除済み。「Web で調べて」と自然言語で依頼する
+- `@Docs` は Agents ウィンドウでは使えないことが多い。ドキュメントも自然言語で調べさせるか、Editor ウィンドウを使う
 
 ## 日本語プロンプトで期待と違う結果
 

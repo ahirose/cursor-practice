@@ -61,10 +61,10 @@ git diff
 git diff --stat
 ```
 
-Agent に:
+Agent に `@Commit`（Diff of Working State）を付けて:
 
 ```
-@Git
+@Commit
 
 今の diff をレビューして。マージ前に直すべき点があれば指摘して。変更はまだしないで。
 ```
@@ -95,7 +95,7 @@ git commit -m "feat: add todo sort order toggle"
 Agent にコミットメッセージ生成を任せても OK:
 
 ```
-@Git 適切なコミットメッセージを conventional commits 形式で 3 案提案して
+@Commit 適切なコミットメッセージを conventional commits 形式で 3 案提案して
 ```
 
 ## 成功条件
